@@ -12,8 +12,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>totp-authenticator-spring-boot-autoconfigure</module>
-        <module>totp-authenticator-spring-boot-starter</module>
+        <module>dp</module>
     </modules>
 
     <properties>
@@ -35,21 +34,9 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>com.github.cheergoivan</groupId>
-                <artifactId>totp-authenticator-spring-boot-starter</artifactId>
+                <groupId>com.github.AndroidDp</groupId>
+                <artifactId>dp</artifactId>
                 <version>1.0</version>
-            </dependency>
-            <dependency>
-                <groupId>com.github.cheergoivan</groupId>
-                <artifactId>totp-authenticator-spring-boot-autoconfigure</artifactId>
-                <version>1.0</version>
-            </dependency>
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-dependencies</artifactId>
-                <version>${spring-boot.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -125,17 +112,15 @@
         </license>
     </licenses>
     <scm>
-        <url>https://github.com/cheergoivan/totp-authenticator-spring-boot-starter</url>
-        <connection>https://github.com/cheergoivan/totp-authenticator-spring-boot-starter.git
-        </connection>
-        <developerConnection>https://github.com/cheergoivan</developerConnection>
+        <url>https://github.com/zgy441008825/AndroidDp</url>
+        <connection>https://github.com/zgy441008825/AndroidDp.git</connection>
+        <developerConnection>https://github.com/zgy441008825</developerConnection>
     </scm>
     <developers>
         <developer>
-            <name>cheergoivan</name>
-            <email>xiweipen@sina.com</email>
-            <url>https://github.com/cheergoivan</url>
+            <name>zgy441008825</name>
+            <email>441008825@sina.com</email>
+            <url>https://github.com/zgy441008825</url>
         </developer>
     </developers>
-
 </project>
